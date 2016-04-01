@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Dosis', sans-serif;
+}
+
+body {
+    background: url(background.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+h1 {
+	text-decoration: none;
+}
+
+header {
+	color:red;
+	padding: 1%;
+  	background: -webkit-linear-gradient(bottom,rgba(255,255,255,0),rgba(255,255,255,1)); /*Safari 5.1-6*/
+  	background: -o-linear-gradient(top,rgba(255,255,255,0.5),rgba(255,255,255,1)); /*Opera 11.1-12*/
+ 	background: -moz-linear-gradient(top,rgba(255,255,255,0.5),rgba(255,255,255,1)); /*Fx 3.6-15*/
+  	background: linear-gradient(to top, rgba(255,255,255,0.5), rgba(255,255,255,1)); /*Standard*/
+}
+
+nav {
+	background-color:gray;
+	float:center;
+	text-align:center;
+  	background: -webkit-linear-gradient(bottom,rgba(255,255,255,0),rgba(255,255,255,0.5)); /*Safari 5.1-6*/
+  	background: -o-linear-gradient(top,rgba(255,255,255,0),rgba(255,255,255,0.5)); /*Opera 11.1-12*/
+ 	background: -moz-linear-gradient(top,rgba(255,255,255,0),rgba(255,255,255,0.5)); /*Fx 3.6-15*/
+  	background: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,0.5)); /*Standard*/
+  	padding: 5px;
+}
+
+nav a:link, nav a:visited {
+	display:block;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.6);
+	text-align: center;
+	text-decoration: none;
+}
+
+nav a:hover, nav a:active {
+	background-color: rgba(0,0,0,0.2); 
+}
+
+nav ul, footer ul {
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+	float: center;
+	width: 80px;
+}
+
+footer {
+	color:white;
+	background-color:black;
+	position:fixed;
+	bottom:0;
+	z-index:999999;
+	width: 100%;
+	text-align: center;
+}
+
+footer li {
+	display: inline-block;
+	float: center;
+	width: 180px;
+}
+
+footer a:link, footer a:visited {
+	display:block;
+	text-decoration: none;
+	color:white;
+	text-align:center;
+}
+
+section {
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	max-width: 960px;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 50px;
+}
+
+.land {
+	text-align: center;
+}
+
+article {
+	padding: 2%;
+}
+
+article a:link, article a:visited {
+	color: white;
+}
+
+section h1, article {
+}
+
+form {
+	margin: auto;
+	text-align: right;
+	line-height: 2em;
+	max-width: 300px;
+}
+
+input {
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	border:none;
+}
+
+#dialog-message {
+	text-align: center;
+}
+
+#map-canvas {
+	color: black;
+    width: 80&;
+    height: 400px;
+}

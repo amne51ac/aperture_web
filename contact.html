@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aperture-Contact</title>
+
+	<!-- Google Font -->
+	<link href='http://fonts.googleapis.com/css?family=Dosis:500,700' rel='stylesheet' type='text/css'>
+
+	<!-- CSS Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- JS Calendar -->
+	<script type="text/javascript"></script>
+</head>
+
+<body onLoad="if (self != top) top.location = self.location">
+
+	<header>
+		<img src="logo.png">
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="news.html">News</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</nav>
+
+	<section>
+		<div class="land">
+			<h1>Contact Aperture</h1>
+		</div>
+		<article>
+			<h2>Lucas Ipsum</h2>
+			<p>There are many exciting opportunities at Aperture Laboratories, please fill out the form below with your contact information and we will get back to your shortly about opportunities!</p>
+			<form action="contact.php"> <!-- This PHP file doesn't actually exist -->
+				<label for="fname">First Name:</label>
+				<input type="text" name="fname" id="fname">
+				<br />
+				<label for="lname">Last Name:</label>
+				<input type="text" name="lname" id="lname">
+				<br />
+				<label for="phone">Phone Number:</label>
+				<input type="text" name="phone" id="phone">
+				<br />
+				<label for="email">Email Address:</label>
+				<input type="email" name="email" id="email">
+				<br />
+				<label for="sex">Sex:</label>
+				<label for="male">Male</label>
+				<input type="radio" id="male" name="male">
+				<label for="female">Female</label>
+				<input type="radio" id="female" name="female">
+				<br />
+				<label for="street1">Street address 1:</label>
+				<input type="text" name="street1" id="street1">
+				<br />
+				<label for="street2">Street address 2:</label>
+				<input type="text" name="street2" id="street2">
+				<br />
+				<label for="city">City:</label>
+				<input type="text" name="city" id="city">
+				<br />
+				<label for="state">State:</label>
+				<input type="text" name="state" id="state">
+				<br />
+				<label for="country">Country:</label>
+				<input type="text" name="country" id="country">
+				<br />
+				<input type="submit" value="Send">
+			</form>
+		</article>
+	</section>
+
+	<footer>
+		<ul>
+			<li><a href="http://markmilhouse.com" target="_blank">&copy;2015 - Mark Milhouse</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="news.html">News</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</footer>
+
+</body>
+</html>
